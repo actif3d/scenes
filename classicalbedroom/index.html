@@ -12,7 +12,7 @@
 
   <meta property="og:image" content="2023-05-29-13-37-28/thumbnail.jpg" />
 
-  <link href="scenes/webwalk/style.css" rel="stylesheet" type="text/css">
+  <link href="/scenes/webwalk/style.css" rel="stylesheet" type="text/css">
 
   <style>
     @font-face {
@@ -20,8 +20,8 @@
       font-style: normal;
       font-weight: 400;
       src: local('Open Sans'), local('OpenSans'),
-      url('scenes/webwalk/font/open-sans-v28-vietnamese_latin-ext_latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url('scenes/webwalk/font/open-sans-v28-vietnamese_latin-ext_latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      url('/scenes/webwalk/font/open-sans-v28-vietnamese_latin-ext_latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/scenes/webwalk/font/open-sans-v28-vietnamese_latin-ext_latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
     }
 
     /* Original font awesome font-family names have been replaced to not rely on
@@ -31,25 +31,25 @@
 
     @font-face {
       font-family: 'FontAwesomeBrands';
-      src: url("scenes/webwalk/font/fa-brands-400.woff2") format("woff2"),
-           url("scenes/webwalk/font/fa-brands-400.woff") format("woff"); }
+      src: url("/scenes/webwalk/font/fa-brands-400.woff2") format("woff2"),
+           url("/scenes/webwalk/font/fa-brands-400.woff") format("woff"); }
 
     @font-face {
       font-family: 'FontAwesomeRegular';
-      src: url("scenes/webwalk/font/fa-regular-400.woff2") format("woff2"),
-           url("scenes/webwalk/font/fa-regular-400.woff") format("woff"); }
+      src: url("/scenes/webwalk/font/fa-regular-400.woff2") format("woff2"),
+           url("/scenes/webwalk/font/fa-regular-400.woff") format("woff"); }
 
     @font-face {
       font-family: 'FontAwesomeSolid';
-      src: url("scenes/webwalk/font/fa-solid-900.woff2") format("woff2"),
-           url("scenes/webwalk/font/fa-solid-900.woff") format("woff"); }
+      src: url("/scenes/webwalk/font/fa-solid-900.woff2") format("woff2"),
+           url("/scenes/webwalk/font/fa-solid-900.woff") format("woff"); }
 
     #cover-image {
       background-image: url("2023-05-29-13-37-28/cover.jpg");
     }
 
     .ext-popup-close-button {
-      background-image: url("scenes/webwalk/img/close.svg");
+      background-image: url("/scenes/webwalk/img/close.svg");
     }
   </style>
 
@@ -117,23 +117,23 @@
     <div id="menu-bar-slide">
       <div id="menu-bar-folder" class="menu-item ui-hoverable ui-panel"
            style="display: none">
-        <img src="scenes/webwalk/img/fold-horizontal.svg">
+        <img src="/scenes/webwalk/img/fold-horizontal.svg">
       </div><!-- NS
    --><div id="menu-bar-content">
         <div id="menu-buttons" style="display: none">
           <div id="help-button"
                class="menu-button menu-item ui-hoverable ui-panel">
-            <img src="scenes/webwalk/img/help.svg">
+            <img src="/scenes/webwalk/img/help.svg">
           </div><!-- NS
        --><div id="minimap-button-toggle"
                class="menu-button menu-item ui-hoverable ui-panel"
                style="display:none">
-            <img src="scenes/webwalk/img/map.svg">
+            <img src="/scenes/webwalk/img/map.svg">
           </div><!-- NS
        --><div id="tour-button"
                class="menu-button menu-item ui-hoverable ui-panel"
                style="display: none">
-            <img src="scenes/webwalk/img/tour.svg">
+            <img src="/scenes/webwalk/img/tour.svg">
           </div><!-- NS
        --><div id="vr-button"
                class="vr-specific menu-button menu-item ui-hoverable ui-panel"
@@ -144,13 +144,13 @@
                class="fullscreen-specific menu-button menu-item ui-hoverable
                       ui-panel"
                style="display: none">
-            <img src="scenes/webwalk/img/fullscreen.svg">
+            <img src="/scenes/webwalk/img/fullscreen.svg">
           </div>
         </div><!-- NS
      --><a id="engine-logo" class="menu-item ui-panel" style="display: none"
            href="https://actif3d.com" target="_blank">
           <div id="engine-logo-text" style="display: none"></div><!-- NS
-       --><img src="scenes/webwalk/img/a3d-logo.svg">
+       --><img src="/scenes/webwalk/img/a3d-logo.svg">
         </a>
       </div>
     </div>
@@ -162,7 +162,7 @@
         <div class="view ui-hoverable ui-panel"></div>
       </div>
       <div id="view-list-folder" class="ui-folder-vertical ui-hoverable ui-panel">
-        <img src="scenes/webwalk/img/fold-vertical.svg">
+        <img src="/scenes/webwalk/img/fold-vertical.svg">
       </div>
     </div>
   </div>
@@ -170,13 +170,13 @@
   <div id="minimap-container" class="minimap-container-default" style="display: none">
     <div id="minimap-wrapper" class="minimap-wrapper-default">
       <div id="minimap-button-close" class="minimap-button minimap-button-close">
-        <img src="scenes/webwalk/img/close.svg">
+        <img src="/scenes/webwalk/img/close.svg">
       </div>
       <div id="minimap-button-minimize" class="minimap-button minimap-button-minimize">
-        <img src="scenes/webwalk/img/minimize.svg">
+        <img src="/scenes/webwalk/img/minimize.svg">
       </div>
       <div id="minimap-button-maximize" class="minimap-button minimap-button-maximize">
-        <img src="scenes/webwalk/img/maximize.svg">
+        <img src="/scenes/webwalk/img/maximize.svg">
       </div>
       <div id="minimap-content-wrapper" class="minimap-content-wrapper">
         <div id="minimap-content" class="minimap-content"></div>
@@ -185,15 +185,15 @@
     </div>
   </div>
 
-  <img id="play-button" class="absolute-center" src="scenes/webwalk/img/play.svg"
+  <img id="play-button" class="absolute-center" src="/scenes/webwalk/img/play.svg"
        style="display: none">
 
   <div id='interaction-prompt' class="ui-all-center ui-panel" style="display: none">
     <div class='interaction-prompt-icon'>
-      <img class='interaction-prompt-icon-idle interaction-prompt-desktop' src="scenes/webwalk/img/pointer.svg"/>
-      <img class='interaction-prompt-icon-pressed interaction-prompt-desktop' src="scenes/webwalk/img/pointer-pressed.svg"/>
-      <img class='interaction-prompt-icon-idle interaction-prompt-mobile' src="scenes/webwalk/img/hand.svg"/>
-      <img class='interaction-prompt-icon-pressed interaction-prompt-mobile' src="scenes/webwalk/img/hand-pressed.svg"/>
+      <img class='interaction-prompt-icon-idle interaction-prompt-desktop' src="/scenes/webwalk/img/pointer.svg"/>
+      <img class='interaction-prompt-icon-pressed interaction-prompt-desktop' src="/scenes/webwalk/img/pointer-pressed.svg"/>
+      <img class='interaction-prompt-icon-idle interaction-prompt-mobile' src="/scenes/webwalk/img/hand.svg"/>
+      <img class='interaction-prompt-icon-pressed interaction-prompt-mobile' src="/scenes/webwalk/img/hand-pressed.svg"/>
     </div>
     <div data-strings="help.interactiveDesktop" class='interaction-prompt-indicator-text interaction-prompt-desktop'></div>
     <div data-strings="help.interactiveMobile" class='interaction-prompt-indicator-text interaction-prompt-mobile'></div>
@@ -208,7 +208,7 @@
     <div id="desktop-help" class="help ui-panel" style="display: none">
       <img id="close-desktop-help-button"
            class="close-help-button ui-close-hoverable"
-           src="scenes/webwalk/img/close.svg">
+           src="/scenes/webwalk/img/close.svg">
       <div id="desktop-help-switch">
         <div data-strings="help.basic" id="basic-desktop-help-option">
         </div><!-- NS = no spaces
@@ -221,17 +221,17 @@
         <div id="desktop-basic-help" class="help-columns" style="display: none">
           <div class="help-column3">
             <h1 data-strings="help.mouse"></h1>
-            <img src="scenes/webwalk/img/mouse-controls.svg">
+            <img src="/scenes/webwalk/img/mouse-controls.svg">
           </div><!-- NS
        --><div class="help-column3-sep"></div><!-- NS
        --><div class="help-column3">
             <h1 data-strings="help.keyboard"></h1>
-            <img src="scenes/webwalk/img/keyboard-controls.svg">
+            <img src="/scenes/webwalk/img/keyboard-controls.svg">
           </div><!-- NS
        --><div class="help-column3-sep"></div><!-- NS
        --><div class="help-column3">
             <h1 data-strings="help.vrTeleport"></h1>
-            <img src="scenes/webwalk/img/vr-controls.svg">
+            <img src="/scenes/webwalk/img/vr-controls.svg">
           </div>
         </div>
 
@@ -342,16 +342,16 @@
          style="display: none">
       <img id="close-mobile-help-button"
            class="close-help-button ui-close-hoverable"
-           src="scenes/webwalk/img/close.svg">
+           src="/scenes/webwalk/img/close.svg">
       <div class="help-columns">
         <div class="help-column2">
           <h1 data-strings="help.touch"></h1>
-          <img src="scenes/webwalk/img/touch-controls.svg">
+          <img src="/scenes/webwalk/img/touch-controls.svg">
         </div><!-- NS
      --><div class="help-column2-sep"></div><!-- NS
      --><div class="navigation-help-column2">
           <h1 data-strings="help.vrTeleport"></h1>
-          <img src="scenes/webwalk/img/vr-controls.svg">
+          <img src="/scenes/webwalk/img/vr-controls.svg">
         </div>
       </div>
     </div>
@@ -422,7 +422,7 @@
       </div>
     </div>
     <div id="ext-meeting-who-list-folder" class="ui-folder-vertical ui-hoverable ui-panel">
-      <img src="scenes/webwalk/img/fold-vertical.svg">
+      <img src="/scenes/webwalk/img/fold-vertical.svg">
     </div>
   </div>
   <div id="ext-meeting-camera-preview" style="display: none"></div>
@@ -433,8 +433,8 @@
       WALK.init(config);
     }
   </script>
-  <script src="scenes/webwalk/lib/webxr-polyfill.min.js"></script>
-  <script src="scenes/webwalk/lib/three.js"></script>
-  <script src="scenes/webwalk/a3dcanvas.js"></script>
+  <script src="/scenes/webwalk/lib/webxr-polyfill.min.js"></script>
+  <script src="/scenes/webwalk/lib/three.js"></script>
+  <script src="/scenes/webwalk/a3dcanvas.js"></script>
 </body>
 </html>
