@@ -1,0 +1,52 @@
+{
+  "model": "example_avatar.obj",
+  "meshes": [
+    {
+      "geometryName": "head",
+      "group": "head",
+      "materialName": "mainMaterial"
+    },
+    {
+      "geometryName": "torso",
+      "group": "torso",
+      "materialName": "mainMaterial"
+    },
+    {
+      "geometryName": "displayPortrait",
+      "group": "displayPortrait",
+      "materialName": "displayMaterial"
+    },
+    {
+      "geometryName": "displayLandscape",
+      "group": "displayLandscape",
+      "materialName": "displayMaterial"
+    },
+    {
+      "geometryName": "sphere_01",
+      "group": "torso",
+      "materialName": "red"
+    },
+    {
+      "geometryName": "sphere_02",
+      "group": "torso",
+      "materialName": "green"
+    }
+  ],
+  "materials": [
+    {
+      "name": "red",
+      "baseColor": [1, 0, 0],
+      "baseColorTexture": {
+        "file": "red.png"
+      },
+      "roughness": 0.1,
+      "metallic": 1.0
+    },
+    {
+      "name": "green",
+      "baseColor": [0, 1, 0],
+      "roughness": 0.1,
+      "metallic": 1.0
+    }
+  ]
+}
